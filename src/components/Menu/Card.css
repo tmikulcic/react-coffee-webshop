@@ -1,15 +1,17 @@
 .card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #262626;
-  height: 15rem;
-  width: 60rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  height: 8rem;
+  width: 50rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 20px;
 }
 
 .card-image {
-  height: 12rem;
+  height: 6rem;
   margin-left: 2rem;
 }
 
@@ -22,10 +24,10 @@
 }
 
 .coffee-name {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .coffee-price {
-  font-size: 4rem;
+  font-size: 2rem;
   margin-right: 4rem;
 }
