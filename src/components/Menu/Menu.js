@@ -8,5 +8,9 @@ export default function Menu() {
     return <Card key={item.id} item={item} />;
   });
 
-  return <div className='menu-container'>{cards}</div>;
+  return (
+    <div className='menu-container'>
+      <div>{cards}</div>
+    </div>
+  );
 }

@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  background-color: #262626;
+  height: 15rem;
+  width: 60rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+}
+
+.card-image {
+  height: 12rem;
+  margin-left: 2rem;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 4rem;
+  width: 100%;
+}
+
+.coffee-name {
+  font-size: 4rem;
+}
+
+.coffee-price {
+  font-size: 4rem;
+  margin-right: 4rem;
+}

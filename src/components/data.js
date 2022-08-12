@@ -6,6 +6,13 @@ export default [
     price: 1.5,
   },
 
+  {
+    id: 2,
+    name: 'Coffee with milk',
+    img: './images/coffee.png',
+    price: 1.5,
+  },
+
   // {
   //     id: ,
   //     name: ,
