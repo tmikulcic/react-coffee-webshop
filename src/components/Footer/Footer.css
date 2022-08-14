@@ -33,3 +33,7 @@
   width: 3rem;
   margin-right: 2rem;
 }
+
+.link-icon:hover {
+  transform: scale(1.5);
+}

@@ -31,6 +31,10 @@
   margin-top: 2rem;
 }
 
+.bubbles-icon-container:hover {
+  background-color: #ffd13b;
+}
+
 .bubbles-icon {
   height: 4rem;
   z-index: 1;

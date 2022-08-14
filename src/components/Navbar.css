@@ -30,6 +30,7 @@
 .link:hover {
   text-decoration: underline;
   color: #d4af37;
+  transform: scale(1.1);
 }
 
 .logo {
@@ -39,8 +40,9 @@
 .logo-header {
   font-family: 'Dancing Script', cursive;
   font-size: 3rem;
+  color: #d4af37;
 }
 
 .logo-header:hover {
-  color: #d4af37;
+  color: white;
 }

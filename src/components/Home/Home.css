@@ -65,15 +65,15 @@
   font-size: 2rem;
   width: 20rem;
   height: 4rem;
-  color: white;
+  color: #262626;
   background-color: #d4af37;
   border-radius: 60px;
   border: 2px solid white;
 }
 
 .button:hover {
-  color: #262626;
-  background-color: #f8cc3d;
+  color: white;
+  background-color: #ffd13b;
 }
 
 .button:active {
