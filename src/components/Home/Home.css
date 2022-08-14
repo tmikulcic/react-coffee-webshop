@@ -28,7 +28,8 @@
 .selection-left {
   width: 20rem;
   height: 15rem;
-  border: solid 1px white;
+  border: #d4af37 5px solid;
+  border-right: none;
 
   display: flex;
   flex-direction: column;
@@ -39,7 +40,7 @@
 .selection-right {
   width: 65rem;
   height: 15rem;
-  border: solid 1px white;
+  border: #d4af37 5px solid;
 }
 
 .article-title {

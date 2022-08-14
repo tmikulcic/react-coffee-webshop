@@ -28,19 +28,19 @@ export default [
     id: 5,
     name: `Tom's Premium Brewed Coffee (250g)`,
     img: './images/coffee-bag.png',
-    price: 1.5,
+    price: 10,
   },
   {
     id: 6,
     name: `Tom's Premium Brewed Coffee (500g)`,
     img: './images/coffee-bag.png',
-    price: 1.5,
+    price: 18,
   },
   {
     id: 7,
     name: `Tom's Premium Brewed Coffee (1kg)`,
     img: './images/coffee-bag.png',
-    price: 1.5,
+    price: 25,
   },
 
   // {

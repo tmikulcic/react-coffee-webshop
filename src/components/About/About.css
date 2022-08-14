@@ -11,8 +11,8 @@
   justify-content: center;
   align-items: center;
   color: rgb(228, 228, 228);
-  border-color: rgb(202, 202, 202);
 }
+
 .about-section-black {
   display: flex;
   height: 30rem;
@@ -20,7 +20,6 @@
   align-items: center;
   color: rgb(228, 228, 228);
   background-color: #262626;
-  border: #262626 5px solid;
 }
 
 .about-image-container {
@@ -41,27 +40,29 @@
 .about-text {
   display: flex;
   flex-direction: column;
+  flex: 2;
 
   width: 30rem;
   height: 25rem;
-  border: #d4af37 5px solid;
+  outline: #d4af37 5px solid;
   background-color: #262626;
 }
 
 .about-text-black {
   display: flex;
   flex-direction: column;
+  flex: 2;
 
   width: 30rem;
   height: 25rem;
-  margin-left: 10rem;
-  margin-right: 10rem;
-  border: #d4af37 5px solid;
+
+  outline: #d4af37 5px solid;
 }
 
 .about-image {
   height: 25rem;
-  border: #d4af37 5px solid;
+  outline: #d4af37 5px solid;
+  flex: 1;
 }
 
 .about-header {

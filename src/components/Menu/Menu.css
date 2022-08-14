@@ -8,7 +8,7 @@
 }
 
 .card-container {
-  border: #d4af37 5px solid;
+  border-left: #d4af37 5px solid;
+  border-right: #d4af37 5px solid;
   background-color: #1c1c1c;
-  margin: 3rem;
 }
