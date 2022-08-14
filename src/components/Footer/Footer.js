@@ -42,7 +42,7 @@ export default function Footer() {
           <a href='https://www.tiktok.com/' target='_blank'>
             <img
               className='link-icon'
-              src='https://cdn-icons.flaticon.com/png/512/4782/premium/4782345.png?token=exp=1660505285~hmac=21c4ed775bbca9738cf6e6567bef3b95'
+              src='https://cdn-icons.flaticon.com/png/512/4782/premium/4782345.png?token=exp=1660519062~hmac=e39fbf3da6544495123ea3945445f456'
               alt='link'
             />
           </a>

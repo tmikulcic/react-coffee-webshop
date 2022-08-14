@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40rem;
+  height: 45rem;
   width: 100%;
   background: no-repeat center
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
@@ -11,8 +11,8 @@
 }
 
 .contact-box {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
   height: 35rem;
