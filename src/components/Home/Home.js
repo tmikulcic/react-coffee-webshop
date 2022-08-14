@@ -7,7 +7,7 @@ export default function Home() {
       <div
         className='splashscreen'
         style={{
-          backgroundImage: `url("https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80")`,
+          backgroundImage: `url("https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80")`,
         }}
       >
         <div className='splashscreen-text'>START YOUR DAY RIGHT</div>

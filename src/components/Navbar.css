@@ -10,7 +10,8 @@
 }
 
 .navbar-name {
-  margin-left: 5rem;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-links {
@@ -28,4 +29,13 @@
 
 .link:hover {
   text-decoration: underline;
+}
+
+.logo {
+  width: 3.5rem;
+}
+
+.logo-header {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
 }

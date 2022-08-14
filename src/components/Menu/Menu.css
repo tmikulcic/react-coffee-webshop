@@ -6,3 +6,9 @@
   background-size: cover;
   height: 100%;
 }
+
+.card-container {
+  border: #d4af37 5px solid;
+  background-color: #1c1c1c;
+  margin: 3rem;
+}

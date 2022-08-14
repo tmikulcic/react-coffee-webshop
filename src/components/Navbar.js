@@ -6,7 +6,8 @@ export default function Navbar() {
   return (
     <div className='navbar'>
       <Link to='/' className='navbar-name'>
-        Tom's Coffee Brewery
+        <img className='logo' src='./images/coffee-logo.png' alt='logo' />
+        <h1 className='logo-header'>Tom's Coffee Brewery</h1>
       </Link>
       <div className='navbar-links'>
         <Link to='/' className='link'>
