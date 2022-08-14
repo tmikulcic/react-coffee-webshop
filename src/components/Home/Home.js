@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import Services from './Services';
 
 export default function Home() {
   return (
@@ -13,21 +14,8 @@ export default function Home() {
         <div className='splashscreen-text'>START YOUR DAY RIGHT</div>
         <div className='splashscreen-text'>WITH CUP OF A BEST COFFEE</div>
       </div>
-      <div className='selection'>
-        <div className='selection-left'>
-          <p className='article-title'>OUR SELECTION</p>
-          <p className='article-text'>Explore all of them to find your taste</p>
-        </div>
-        <div className='selection-right'></div>
-      </div>
+      <Services />
       <div className='find-about'>
-        <p className='article-title'>Want to know more about us?</p>
-        <p className='article-text'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
-          eaque dolore.
-        </p>
-      </div>
-      <div className='find-us'>
         <p className='article-title'>Want to know more about us?</p>
         <p className='article-text'>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt
