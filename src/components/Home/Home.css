@@ -1,7 +1,8 @@
 .splashscreen {
   height: 40rem;
   width: 100%;
-  background: no-repeat linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background: no-repeat center
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-size: cover;
   object-fit: fill;
 
@@ -17,11 +18,18 @@
 }
 
 .article-title {
-  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  font-style: italic;
 }
 
 .article-text {
-  font-size: 1.5rem;
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  font-style: italic;
 }
 
 .find-about {
@@ -30,6 +38,7 @@
   align-items: center;
   justify-content: center;
   height: 20rem;
+  background-color: rgb(235, 235, 235);
 }
 
 .find-about > .article-title,
@@ -44,4 +53,30 @@
   width: 100%;
   background-color: #262626;
   height: 20rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  margin-top: 2rem;
+  font-size: 2rem;
+  width: 20rem;
+  height: 4rem;
+  color: white;
+  background-color: #d4af37;
+  border-radius: 60px;
+  border: 2px solid white;
+}
+
+.button:hover {
+  color: #262626;
+  background-color: #f8cc3d;
+}
+
+.button:active {
+  color: white;
+  background-color: #d4af37;
 }
