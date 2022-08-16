@@ -3,7 +3,7 @@ import './Card.css';
 
 export default function Card(props) {
   return (
-    <div className='card'>
+    <div data-aos='fade-up' className='card'>
       <img
         className='card-image'
         src={`.${props.item.img}`}

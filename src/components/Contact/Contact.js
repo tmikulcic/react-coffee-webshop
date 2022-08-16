@@ -9,7 +9,7 @@ export default function Contact() {
         backgroundImage: `url("./images/contact-background.jpg")`,
       }}
     >
-      <div className='contact-box '>
+      <div data-aos='fade-up' className='contact-box '>
         <h1 className='work-text'>OPENING HOURS</h1>
         <p className='workday'>MONDAY: 07-23h</p>
         <p className='workday'>TUESDAY: 07-23h</p>
@@ -20,13 +20,13 @@ export default function Contact() {
         <p className='workday'>SUNDAY: 08-00h</p>
         <p className='workday'>CLOSED ON HOLIDAYS</p>
       </div>
-      <div className='contact-box '>
+      <div data-aos='fade-up' className='contact-box '>
         <h1 className='work-text'>CONTACT US</h1>
         <p className='workday'>Phone: +365 345 3445</p>
         <p className='workday'>Mobile: +365 0945 3445</p>
         <p className='workday'>E-mail: info@tomcb.com</p>
       </div>
-      <div className='contact-box '>
+      <div data-aos='fade-up' className='contact-box '>
         <h1 className='work-text'>LOCATIONS</h1>
         <p className='workday'>Lavazza street 83</p>
         <p className='workday'>

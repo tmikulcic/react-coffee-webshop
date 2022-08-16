@@ -16,9 +16,11 @@ export default function About() {
           backgroundImage: `url("https://images.unsplash.com/photo-1580933073521-dc49ac0d4e6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80")`,
         }}
       >
-        <div className='about-text'>
-          <h3 className='about-header'>HOW WE STARTED</h3>
-          <p className='about-paragraph'>
+        <div data-aos='fade-up' className='about-text'>
+          <h3 data-aos='fade-up' className='about-header'>
+            HOW WE STARTED
+          </h3>
+          <p data-aos='fade-up' className='about-paragraph'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
             dolorem exercitationem accusamus dignissimos debitis voluptatum
             autem illum necessitatibus ea, quas numquam non placeat illo
@@ -28,6 +30,7 @@ export default function About() {
         </div>
         <div className='about-image-container'>
           <img
+            data-aos='fade-up'
             className='about-image'
             src='https://images.unsplash.com/photo-1645633388153-5695f40a91a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80'
             alt='photo'

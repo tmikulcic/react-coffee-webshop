@@ -18,9 +18,13 @@ export default function Home() {
           backgroundImage: `url("./images/splashscreen-darkened.jpg")`,
         }}
       >
-        <div className='splashscreen-text'>START YOUR DAY RIGHT</div>
-        <div className='splashscreen-text'>WITH CUP OF A BEST COFFEE</div>
-        <Link className='button' to='/menu'>
+        <div data-aos='fade-up' className='splashscreen-text'>
+          START YOUR DAY RIGHT
+        </div>
+        <div data-aos='fade-up' className='splashscreen-text'>
+          WITH CUP OF A BEST COFFEE
+        </div>
+        <Link data-aos='fade-up' className='button' to='/menu'>
           Explore Selection
         </Link>
       </div>
